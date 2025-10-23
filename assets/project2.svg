@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700">
+  <rect width="100%" height="100%" fill="#fff7ed"/>
+  <g transform="translate(40,40)">
+    <rect width="1120" height="620" rx="12" fill="#fff" stroke="#fde3a7"/>
+    <text x="40" y="80" font-family="Arial" font-size="36" fill="#111">Proyecto 2 - Landing</text>
+  </g>
+</svg>

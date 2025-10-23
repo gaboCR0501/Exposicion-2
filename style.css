@@ -1,0 +1,53 @@
+
+/* Estilos personalizados */
+
+:root{
+  --accent: #0d6efd;
+  --dark: #0b1220;
+}
+
+body{
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  padding-top: 70px;
+  background-color: #fff;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hero */
+.hero{
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  background-image: url('assets/hero.svg');
+}
+.hero .overlay{
+  position: absolute; inset: 0; background: rgba(0,0,0,0.35);
+}
+
+/* Contacto background */
+.contacto{
+  background-image: url('assets/contact-bg.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cards */
+.card img{
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Equipo avatars */
+.card img.rounded-circle{
+  border-radius: 50% !important;
+}
+
+/* Footer */
+footer a:hover{ color: var(--accent); text-decoration: none; }
